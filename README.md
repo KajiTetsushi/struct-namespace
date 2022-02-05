@@ -36,7 +36,7 @@ Some discussion points to macros (`#define`) can't be used as method members, so
 ### `const` keyword
 When your functions are expected to only access the values of the arguments you pass to it, you can use the `const` keyword ([a blog post](https://matt.sh/sytycc) & [this StackOveflow post](https://stackoverflow.com/a/9419528)) to formally tell the compiler that the values won't change after executing the function.
 
-### `[]` array parameter decays into a `*` pointer
+### `[]` decays into `*` when used as a function parameter
 Calculating `sizeof` on a `[]` parameter can be done, but the compiler will print warnings:
 
 ```
