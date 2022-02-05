@@ -9,7 +9,7 @@ Use it at your own risk.
 ## Why this exists
 I hail from the JavaScript / TypeScript domain with experience in React.js / React Native. I want to see how much of my programming experience is transferrable. In React Native, native modules added to the JavaScript thread are exported using the `NativeModules.RN<ModuleName>.<memberMethod>` convention. This applies to both Java / Kotlin (Android) and Objective-C / Swift (iOS).
 
-This repository exists to investigate namespacing support in C and whether that brings any value to maintainability (for comparison: in TypeScript, namespacing does bring value).
+This repository exists to investigate namespacing support in C and whether that brings any value to maintainability (for comparison: in TypeScript, namespacing does bring value — it allows people to be able to associate a function with a set of members serving a common purpose).
 
 ## Setup
 You need:
