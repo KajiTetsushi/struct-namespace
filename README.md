@@ -1,13 +1,13 @@
 # struct-namespace
-Supposed way to have features enclosed in dot notation namespaces via structs.
+A supposed way to have features enclosed in dot notation namespaces via `struct`s.
 
 ## Disclaimer
-You probably don't need to be here. This is a self-learning repo for whatever purposes it may serve. Use it at your own risk.
+You shouldn't be here. This is a self-learning repo for whatever purposes it may serve. It brings no value to the experiended developer (I assume you're one). I don't know what I'm doing (especially in terms of best practices in C).
 
-I don't know what I'm doing (especially in terms of best practices in C).
+Use it at your own risk.
 
 ## Why this exists
-I come from the JavaScript / TypeScript domain with experience in React.js / React Native. I want to see how much of my programming experience is transferrable. In React Native, native modules added to the JavaScript thread are exported using the `NativeModules.RN<ModuleName>.<memberMethod>` convention. This applies to both Java / Kotlin (Android) and Objective-C / Swift (iOS).
+I hail from the JavaScript / TypeScript domain with experience in React.js / React Native. I want to see how much of my programming experience is transferrable. In React Native, native modules added to the JavaScript thread are exported using the `NativeModules.RN<ModuleName>.<memberMethod>` convention. This applies to both Java / Kotlin (Android) and Objective-C / Swift (iOS).
 
 This repository exists to investigate namespacing support in C and whether that brings any value to maintainability (for comparison: in TypeScript, namespacing does bring value).
 
